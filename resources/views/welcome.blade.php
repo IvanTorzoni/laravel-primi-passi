@@ -8,5 +8,7 @@
     </head>
     <body class="antialiased">
         <h1>Hello World!</h1>
+
+        <p> {{ $username }} ... {{ $note }}</p>
     </body>
 </html>

@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $username = "Loris";
+    $note = "A quando per un nuovo escape code :)";
+    $data = [
+        "username" => $username, 
+        "note"     => $note
+    ];
+    return view('welcome', $data);
 });
