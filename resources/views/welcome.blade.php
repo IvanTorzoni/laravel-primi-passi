@@ -10,5 +10,7 @@
         <h1>Hello World!</h1>
 
         <p> {{ $username }} ... {{ $note }}</p>
+
+        <p> {{ $ps }}</p>
     </body>
 </html>
